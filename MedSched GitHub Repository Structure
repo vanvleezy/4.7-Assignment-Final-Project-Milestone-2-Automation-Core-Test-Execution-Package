@@ -1,0 +1,40 @@
+MedSched-Automation-Milestone2/
+│
+├── README.md
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/medsched/
+│   │           ├── service/
+│   │           │   ├── AuthService.java
+│   │           │   ├── AppointmentService.java
+│   │           │   └── UserService.java
+│   │           │
+│   │           └── exception/
+│   │               ├── AuthenticationException.java
+│   │               ├── SlotUnavailableException.java
+│   │               └── AccessDeniedException.java
+│
+│   ├── test/
+│   │   └── java/
+│   │       └── com/medsched/
+│   │           ├── AuthServiceTest.java
+│   │           ├── AppointmentServiceTest.java
+│   │           └── UserServiceTest.java
+│
+├── postman/
+│   ├── medsched-postman-collection.json
+│   └── postman-run-screenshots/
+│       ├── login-success.png
+│       ├── login-error.png
+│       ├── appointment-success.png
+│       └── appointment-conflict.png
+│
+├── docs/
+│   └── automation-summary-memo.pdf
+│
+└── screenshots/
+    ├── junit-tests-passed.png
+    ├── junit-tests-failed.png
+    └── ide-test-run.png
